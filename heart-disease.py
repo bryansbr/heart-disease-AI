@@ -20,5 +20,9 @@ url = "https://raw.githubusercontent.com/bryansbr/heart-disease-AI/main/heart.cs
 data = pd.read_csv(url)
 data.head()
 
+"""Test
+colors = {"satisfiable": "Blue", "unsatisfiable": "Red"}
+instances_color = data.clause_result.map(colors)
+"""
 
 
